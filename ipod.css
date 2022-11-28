@@ -1,0 +1,259 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	font-family: "Avenir";
+}
+
+.head-bar {
+	background-color: #5F939A;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	color: white;
+	font-size: 1em;
+	height: 2.5em;
+}
+
+.back-button {
+	text-align: left;
+	padding-top: 0.5em;
+	color:white;
+	padding-left: 0.5em;
+}
+
+/* 
+	Albums 
+			*/
+.albums-album-wrapper {
+	width:100%;
+	
+}
+
+.row{
+	display: flex;
+	gap: 1em;
+	margin-right: 1em;
+	margin-bottom: 3em;
+}
+
+.row > * {
+	flex: 1;
+  }
+
+.albums-album-art{
+	width:90%;
+	padding: 1em;	
+}
+
+
+.albums-album-name {
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.albums-artist-name {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+/* 
+	Songs 
+			*/
+.songs-info-wrapper {
+	text-align: left;
+	background-color: #5F939A;
+	text-shadow: 1px 1px black;
+	color: white;
+	font-size: 1em;
+	padding-left: 1em;
+}
+
+.songs-album-art {
+	width:90%;
+	padding: 0.7em;
+}
+
+.songs-album-name {
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-left: 0.7em;
+	margin-top: 1em;
+}
+
+
+.songs-artist-name {
+	text-align: left;
+	font-style: italic;
+	font-size: 0.9em;
+	padding: 1em;
+}
+
+.songs-text-info {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.songs-text-info > *{
+	flex:1;
+}
+
+.songs-album-year {
+	margin-left: 1em;
+}
+
+.songs-list {
+	
+}
+
+.song{
+	border: 0.1em solid lightgray;
+	margin-right: 1em;
+	padding: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+li:hover{
+	background-color: #5F939A;
+	text-decoration: underline;
+}
+
+#arrow_link{
+	color:white;
+	font-style: none;
+	text-decoration: none;
+}
+
+/* 
+	Player 
+			*/
+.player-album-art {
+	width:70%;
+	margin-left: 1.7em;
+	padding: 1.2em;
+	padding-bottom: 0;
+}
+
+.player-song-info {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#player-song-name {
+	color:#5F939A;
+}
+
+#vl0{
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+}
+#vl1{
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+}
+#vl2{
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+
+}
+#vl3{
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+}
+#vl4{
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+}
+#vl5{
+	height: 6px;
+	width: 24px;
+	border: 1px solid black;
+}
+
+.volume-bar {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	justify-content: center;
+	margin: 1em;
+}
+
+.volume-level {
+	left:50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#volume-down{
+	width: 90px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: white;
+}
+
+#volume-up{
+	width: 90px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: white;
+}
+
+.volume-rocker {
+	position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider{
+	width: 100%;
+}
+
+.player-controls {
+	position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.swith_btn{
+	position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+	gap: 1em;
+}
+
+
+#player-time {
+	
+}
+
+#time-elapsed {
+	
+}
+
+#time-total{
+	
+}
